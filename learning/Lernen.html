@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <table>
         <td>
             <tr >
-                <p style="background-color: rgb(226, 244, 250)">1.</p>
+                <p style="background-color: rgb(226, 244, 250); font-size: 30px;">1.</p>
                 <p id="tr1"></p>
             </tr>
             <tr >
@@ -16,26 +16,37 @@
             </tr>
             <tr>
                 <p style="background-color: rgb(226, 244, 250)">3.</p>
-                <form name="rechner">
-                    <input type="text" name="eingabe1" id="eingabe1">+
-                    <input type="text" name="eingabe2" id="eingabe2">=
-                    <input type="text" name="ausgabe" id="ausgabe"><br>
-                    <input type="button" value="ausrechnen" onclick="berechnen()">
-                    <input type="reset" value="löschen">
-                </form>
+                <input type="text" name="eingabe1" id="eingabe1"><br>
+                <input type="text" name="eingabe2" id="eingabe2"><br>
+                <input type="text" name="ausgabe" id="ausgabe"><br>
+                <input type="button" value="ausrechnen" onclick="berechnen()">
+                <input type="reset" value="löschen">
             </tr>
             <tr>
                 <p style="background-color: rgb(226, 244, 250)">4.</p>
-                <form name="georechner">
                     Seitenlänge:<input type="text" name="länge" id="länge"><br>
                     Volumen Würfel:<input type="text" name="würfel" id="würfel"><br>
                     Flächeninhalt Quadrat:<input type="text" name="quadrat" id="quadrat"><br>
                     <input type="button" value="ausrechnen" onclick="ausrechnen()">
                     <input type="reset" value="löschen">
-                </form>
             </tr>
             <tr>
                 <p style="background-color: rgb(226, 244, 250)">5.</p>
+                Zahl 1:<input type="text" name="zahl1" id="zahl1"><br>
+                Zahl 2:<input type="text" name="zahl2" id="zahl2"><br>
+                kleinste Zahl:<input type="text" name="minimal" id="minimal"><br>
+                größte Zahl:<input type="text" name="maximal" id="maximal"><br>
+                <input type="button" value="ermitteln" onclick="ermitteln()">
+                <input type="reset" value="löschen">
+            </tr>
+            <tr>
+                <p style="background-color: rgb(226, 244, 250)">6.</p>
+                Zahl 1:<input type="text" name="zahl11" id="zahl11"><br>
+                Zahl 2:<input type="text" name="zahl22" id="zahl22"><br>
+                Zahl 3:<input type="text" name="zahl33" id="zahl33"><br>
+                sortierte Ausgabe: <input type="text" name="sortiert" id="sortiert"><br>
+                <input type="button" value="sortieren" onclick="sortieren()">
+                <input type="reset" value="löschen">
             </tr>
         </td>
     </table>

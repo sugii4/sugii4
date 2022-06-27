@@ -19,3 +19,23 @@ function ausrechnen() {
     document.getElementById('würfel').value = würfel;
     document.getElementById('quadrat').value = quadrat;
 }
+
+//Aufgabe 5
+function ermitteln() {
+    zahl1 = parseInt(document.getElementById('zahl1').value);
+    zahl2 = parseInt(document.getElementById('zahl2').value);
+    minimal = Math.min(zahl1, zahl2);
+    maximal = Math.max(zahl1, zahl2);
+    document.getElementById('minimal').value = minimal;
+    document.getElementById('maximal').value = maximal;
+}
+
+//Aufgabe 6
+function sortieren() {
+    zahl11 = parseInt(document.getElementById('zahl11').value);
+    zahl22 = parseInt(document.getElementById('zahl22').value);
+    zahl33 = parseInt(document.getElementById('zahl33').value);
+    var sortiert = [zahl11, zahl22, zahl33];
+    sortiert.sort();
+    document.getElementById('sortiert').value = sortiert;
+}
