@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <table>
+        <td>
+            <tr >
+                <p style="background-color: rgb(226, 244, 250)">1.</p>
+                <p id="tr1"></p>
+            </tr>
+            <tr >
+                <p style="background-color: rgb(226, 244, 250)">2.</p>
+                <p id="tr2"></p>
+            </tr>
+            <tr>
+                <p style="background-color: rgb(226, 244, 250)">3.</p>
+                <form name="rechner">
+                    <input type="text" name="eingabe1" id="eingabe1">+
+                    <input type="text" name="eingabe2" id="eingabe2">=
+                    <input type="text" name="ausgabe" id="ausgabe"><br>
+                    <input type="button" value="ausrechnen" onclick="berechnen()">
+                    <input type="reset" value="löschen">
+                </form>
+            </tr>
+            <tr>
+                <p style="background-color: rgb(226, 244, 250)">4.</p>
+                <form name="georechner">
+                    Seitenlänge:<input type="text" name="länge" id="länge"><br>
+                    Volumen Würfel:<input type="text" name="würfel" id="würfel"><br>
+                    Flächeninhalt Quadrat:<input type="text" name="quadrat" id="quadrat"><br>
+                    <input type="button" value="ausrechnen" onclick="ausrechnen()">
+                    <input type="reset" value="löschen">
+                </form>
+            </tr>
+            <tr>
+                <p style="background-color: rgb(226, 244, 250)">5.</p>
+            </tr>
+        </td>
+    </table>
+    <script src="Lernen.js"></script>
+</body>
+</html>
