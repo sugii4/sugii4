@@ -1,7 +1,7 @@
 //Aufgabe 1
-document.getElementById("tr1").innerHTML = "Hello World"; 
+document.getElementById("td1").innerHTML = "Hello World"; 
 //Aufgabe 2
-document.getElementById("tr2").innerHTML = "Heute <br> ist <br> ist <br> ein <br> schöner <br> Tag"; 
+document.getElementById("td2").innerHTML = "Heute <br> ist <br> ist <br> ein <br> schöner <br> Tag"; 
 
 //Aufgabe 3
 function berechnen() { 
@@ -39,3 +39,5 @@ function sortieren() {
     sortiert.sort();
     document.getElementById('sortiert').value = sortiert;
 }
+
+//Aufgabe 7
