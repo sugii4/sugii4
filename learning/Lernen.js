@@ -41,12 +41,12 @@ function sortieren() {
 }
 
 //Aufgabe 7 - nicht fertig
-var zahlen = ["20", "35", "38", "40" ];
+var zahlen = [20, 35, 38, 40];
 document.getElementById('share').innerHTML = zahlen;
 
 function teileln() {
-    
-    teilbar = parseInt(document.getElementById('share').value);
+    //console.log(document.getElementById('share').innerHTML);
+    teilbar = parseInt(document.getElementById(zahlen));
      
     if (teilbar % 2 == 0) {
        document.getElementById('ashare').innerHTML = teilbar;
