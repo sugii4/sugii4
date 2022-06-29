@@ -45,6 +45,7 @@ var zahlen = ["20", "35", "38", "40" ];
 document.getElementById('share').innerHTML = zahlen;
 
 function teileln() {
+    
     teilbar = parseInt(document.getElementById('share').value);
      
     if (teilbar % 2 == 0) {
