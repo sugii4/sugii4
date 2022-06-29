@@ -40,23 +40,20 @@ function sortieren() {
     document.getElementById('sortiert').value = sortiert;
 }
 
-//Aufgabe 7 - nicht fertig
+//Aufgabe 7
 var zahlen = [20, 35, 38, 40];
 document.getElementById('share').innerHTML = zahlen;
 
 function teileln() {
-    //console.log(document.getElementById('share').innerHTML);
     for (var i = 0; i < zahlen.length; i++) {
         var e = zahlen[i];
             if (e % 2 == 0) {
             document.getElementById('ashare').innerHTML += e + ",";
             }
     }
-
-    
-    /*else {
-        document.getElementById('ashare').innerHTML = "keine der Zahlen ist durch 2 teilbar";
-    }*/
+    if (document.getElementById('ashare').innerHTML == "") {
+        document.getElementById('ashare').innerHTML = "Es ist keine Zahl durch 2 teilbar"
+    }
 }
 
 //Aufgabe 8
