@@ -44,10 +44,8 @@ function sortieren() {
 var zahlen = ["20", "35", "38", "40" ];
 document.getElementById('share').innerHTML = zahlen;
 
-function teilen() {
+function teileln() {
     teilbar = parseInt(document.getElementById('share').value);
-    console.log("test");
-    ganz = teilbar;
      
     if (teilbar % 2 == 0) {
        document.getElementById('ashare').innerHTML = teilbar;
