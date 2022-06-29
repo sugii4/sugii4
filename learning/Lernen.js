@@ -48,14 +48,15 @@ function teileln() {
     //console.log(document.getElementById('share').innerHTML);
     for (var i = 0; i < zahlen.length; i++) {
         var e = zahlen[i];
+            if (e % 2 == 0) {
+            document.getElementById('ashare').innerHTML += e + ",";
+            }
     }
 
-    if (e % 2 == 0) {
-       document.getElementById('ashare').innerHTML = e;
-    }
-    else {
+    
+    /*else {
         document.getElementById('ashare').innerHTML = "keine der Zahlen ist durch 2 teilbar";
-    }
+    }*/
 }
 
 //Aufgabe 8
