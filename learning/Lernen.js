@@ -46,10 +46,12 @@ document.getElementById('share').innerHTML = zahlen;
 
 function teileln() {
     //console.log(document.getElementById('share').innerHTML);
-    teilbar = parseInt(document.getElementById(zahlen));
-     
-    if (teilbar % 2 == 0) {
-       document.getElementById('ashare').innerHTML = teilbar;
+    for (var i = 0; i < zahlen.length; i++) {
+        var e = zahlen[i];
+    }
+
+    if (e % 2 == 0) {
+       document.getElementById('ashare').innerHTML = e;
     }
     else {
         document.getElementById('ashare').innerHTML = "keine der Zahlen ist durch 2 teilbar";
