@@ -40,4 +40,24 @@ function sortieren() {
     document.getElementById('sortiert').value = sortiert;
 }
 
-//Aufgabe 7
+//Aufgabe 7 - nicht fertig
+var zahlen = ["20", "35", "38", "40" ];
+document.getElementById('share').innerHTML = zahlen;
+
+function teilen() {
+    teilbar = parseInt(document.getElementById('share').value);
+    console.log("test");
+    ganz = teilbar;
+     
+    if (teilbar % 2 == 0) {
+       document.getElementById('ashare').innerHTML = teilbar;
+    }
+    else {
+        document.getElementById('ashare').innerHTML = "keine der Zahlen ist durch 2 teilbar";
+    }
+}
+
+//Aufgabe 8
+function quadrat() {
+   
+}
