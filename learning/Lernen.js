@@ -57,6 +57,13 @@ function teileln() {
 }
 
 //Aufgabe 8
-function quadrat() {
-   
+function quadratos() {
+   quadro = parseInt(document.getElementById('quadro').value);
+   quadratzahl = Math.sqrt(quadro);
+   document.getElementById('quadrot').value = quadratzahl;
+}
+
+//Aufgabe 9
+function zeichen() {
+    eingabe = document.getElementById('symbol').innerHTML;
 }
