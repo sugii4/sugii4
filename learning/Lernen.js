@@ -60,7 +60,13 @@ function teileln() {
 function quadratos() {
    quadro = parseInt(document.getElementById('quadro').value);
    quadratzahl = Math.sqrt(quadro);
-   document.getElementById('quadrot').value = quadratzahl;
+   if (quadro % quadratzahl == 0) {
+    document.getElementById('quadrot').value = quadratzahl;
+   }
+   if (document.getElementById('quadrot').value == "") {
+    document.getElementById('quadrot').value = "Nein";
+   }
+   
 }
 
 //Aufgabe 9
