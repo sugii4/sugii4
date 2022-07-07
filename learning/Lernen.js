@@ -79,3 +79,20 @@ function zeichenen() {
         document.getElementById('ergebnis').value = "Zahl";
     }
 }
+
+//Aufgabe 10
+function alphabett() {
+    elpha = document.getElementById('elpha').value;
+    elphaAusgabe = isNaN(elpha);
+        if(elphaAusgabe == true) {
+            document.getElementById('alphe').value = "Buchstabe";
+        }
+        if (elphaAusgabe == false) {
+            document.getElementById('alphe').value = "Zahl";
+        }
+    alphabet = parseInt(document.getElementById('elpha').value, 36) -9;
+    document.getElementById('alphabet').value = alphabet;
+        if (alphabet <= 0) {
+            document.getElementById('alphabet').value = "kein Buchstabe im Alphabet";
+        }
+}
