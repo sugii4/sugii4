@@ -116,8 +116,3 @@ function stellenwert() {
 
 // Teil 2
 //Aufgabe 1
-document.getElementById('einsen').innerHTML = "1".repeat(10);
-document.getElementById('zwei').innerHTML = "2".repeat(10);
-document.getElementById('drei').innerHTML = "3".repeat(10);
-document.getElementById('vier').innerHTML = "4".repeat(10);
-document.getElementById('fünf').innerHTML = "5".repeat(10);
