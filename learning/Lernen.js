@@ -96,3 +96,19 @@ function alphabett() {
             document.getElementById('alphabet').value = "kein Buchstabe im Alphabet";
         }
 }
+
+//Aufgabe 11
+function zusammenenführen() {
+    reihe1 = document.getElementById('reihe1').value;
+    reihe2 = document.getElementById('reihe2').value;
+    fullrow = reihe1 + reihe2;
+    document.getElementById('fullrow').value = fullrow;
+}
+
+//Aufgabe 12
+function stellenwert() {
+    dreistellige = document.getElementById('dreistellige').value;
+    document.getElementById('hundert').value = dreistellige[0];
+    document.getElementById('zehn').value = dreistellige[1];
+    document.getElementById('eins').value = dreistellige[2];
+}

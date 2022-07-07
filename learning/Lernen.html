@@ -116,10 +116,25 @@
                 </form>
             </td>
             <td><!-- Aufgabe 11 -->
-    
+                <h3>Zeichenreihen zusammenfügen</h3>
+                <form name="reihen">
+                    <p>Wort 1 (Eingabe):</p><input type="text" name="reihe1" id="reihe1"><br>
+                    <p>Wort 2 (Eingabe):</p><input type="text" name="reihe2" id="reihe2"><br>
+                    <p>zusammengeführte Wörter (Ausgabe):</p><input type="text" name="fullrow" id="fullrow"><br>
+                    <input type="button" value="zusammenführen" onclick="zusammenenführen()">
+                    <input type="reset" value="löschen">
+                </form>
             </td>
             <td><!-- Aufgabe 12 -->
-    
+                <h3>Stellenwert ermitteln</h3>
+                <form name="stelle">
+                    <p>Dreistellige Zahl (Eingabe):</p><input type="text" name="dreistellige" id="dreistellige"><br>
+                    <p>Hunderter (Ausgabe):</p><input type="text" name="hundert" id="hundert"><br>
+                    <p>Zehner (Ausgabe):</p><input type="text" name="zehn" id="zehn"><br>
+                    <p>Einer (Ausgabe):</p><input type="text" name="eins" id="eins"><br>
+                    <input type="button" value="ermitteln" onclick="stellenwert()">
+                    <input type="reset" value="löschen">
+                </form>
             </td>
         </tr>
     </table>
