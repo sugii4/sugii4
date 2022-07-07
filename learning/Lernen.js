@@ -66,10 +66,16 @@ function quadratos() {
    if (document.getElementById('quadrot').value == "") {
     document.getElementById('quadrot').value = "Nein";
    }
-   
 }
 
 //Aufgabe 9
-function zeichen() {
-    eingabe = document.getElementById('symbol').innerHTML;
+function zeichenen() {
+    eingabe = document.getElementById('symbol').value;
+    ausgabe = isNaN(eingabe);
+    if (ausgabe == true) {
+        document.getElementById('ergebnis').value = "Buchstabe";
+    }
+    if (ausgabe == false) {
+        document.getElementById('ergebnis').value = "Zahl";
+    }
 }

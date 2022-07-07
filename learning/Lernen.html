@@ -16,45 +16,51 @@
         </tr>
         <tr>
             <td> <!-- Augabe 1 -->
+                <h3>Hello World</h3>
                 <p id="td1"></p>
             </td>
             <td> <!-- Aufgabe 2 -->
+                <h3>Text untereinander</h3>
                 <p id="td2"></p>
             </td>
             <td> <!-- Aufgabe 3 -->
+                <h3>Addition</h3>
                 <form name="rechner">
-                    <p>Zahl 1:</p><input type="text" name="eingabe1" id="eingabe1"><br>
-                    <p>Zahl 2:</p><input type="text" name="eingabe2" id="eingabe2"><br>
-                    <p>Ergebnis:</p><input type="text" name="ausgabe" id="ausgabe"><br>
+                    <p>Zahl 1 (Eingabe):</p><input type="text" name="eingabe1" id="eingabe1"><br>
+                    <p>Zahl 2 (Eingabe):</p><input type="text" name="eingabe2" id="eingabe2"><br>
+                    <p>Ergebnis (Ausgabe):</p><input type="text" name="ausgabe" id="ausgabe"><br>
                     <input type="button" value="ausrechnen" onclick="berechnen()">
                     <input type="reset" value="löschen">
                 </form>
             </td>
             <td> <!-- Aufgabe 4 -->
+                <h3>Geometrie</h3>
                 <form name="geo">
-                    <p>Seitenlänge:</p><input type="text" name="länge" id="länge"><br>
-                    <p>Volumen Würfel:</p><input type="text" name="würfel" id="würfel"><br>
-                    <p>Fläche Quadrat:</p><input type="text" name="quadrat" id="quadrat"><br>
+                    <p>Seitenlänge (Eingabe):</p><input type="text" name="länge" id="länge"><br>
+                    <p>Volumen Würfel (Ausgabe):</p><input type="text" name="würfel" id="würfel"><br>
+                    <p>Fläche Quadrat (Ausgabe):</p><input type="text" name="quadrat" id="quadrat"><br>
                     <input type="button" value="ausrechnen" onclick="ausrechnen()">
                     <input type="reset" value="löschen">
                 </form>    
             </td>
             <td> <!-- Aufgabe 5 -->
+                <h3>Minimaler und Maximaler Wert</h3>
                 <form name="minimaxi">
-                    <p>Zahl 1:</p><input type="text" name="zahl1" id="zahl1"><br>
-                    <p>Zahl 2:</p><input type="text" name="zahl2" id="zahl2"><br>
-                    <p>kleinste Zahl:</p><input type="text" name="minimal" id="minimal"><br>
-                    <p>größte Zahl:</p><input type="text" name="maximal" id="maximal"><br>
+                    <p>Zahl 1 (Eingabe):</p><input type="text" name="zahl1" id="zahl1"><br>
+                    <p>Zahl 2 (Eingabe):</p><input type="text" name="zahl2" id="zahl2"><br>
+                    <p>kleinste Zahl (Ausgabe):</p><input type="text" name="minimal" id="minimal"><br>
+                    <p>größte Zahl (Ausgabe):</p><input type="text" name="maximal" id="maximal"><br>
                     <input type="button" value="ermitteln" onclick="ermitteln()">
                     <input type="reset" value="löschen">
                 </form>
             </td>
             <td> <!-- Aufgabe 6 -->
+                <h3>Zahlen sortieren</h3>
                 <form name="sort">
-                    <p>Zahl 1:</p><input type="text" name="zahl11" id="zahl11"><br>
-                    <p>Zahl 2:</p><input type="text" name="zahl22" id="zahl22"><br>
-                    <p>Zahl 3:</p><input type="text" name="zahl33" id="zahl33"><br>
-                    <p>sortierte Ausgabe:</p><input type="text" name="sortiert" id="sortiert"><br>
+                    <p>Zahl 1 (Eingabe):</p><input type="text" name="zahl11" id="zahl11"><br>
+                    <p>Zahl 2 (Eingabe):</p><input type="text" name="zahl22" id="zahl22"><br>
+                    <p>Zahl 3 (Eingabe):</p><input type="text" name="zahl33" id="zahl33"><br>
+                    <p>sortierte Ausgabe (Ausgabe):</p><input type="text" name="sortiert" id="sortiert"><br>
                     <input type="button" value="sortieren" onclick="sortieren()">
                     <input type="reset" value="löschen">
                 </form>
@@ -73,25 +79,28 @@
         </tr>
         <tr> 
             <td><!-- Aufgabe 7 -->
+                <h3>Teilbarkeit</h3>
                 <form name="teilen">
-                    <p>Zahlen:</p><p id="share"></p><br>
-                    <p>durch 2 teilbar:</p><p id="ashare"></p><br>
+                    <p>Zahlen (festgelegte Eingabe):</p><p id="share"></p><br>
+                    <p>durch 2 teilbar (Ausgabe):</p><p id="ashare"></p><br>
                     <input type="button" value="ermitteln" onclick="teileln()">
                 </form>
             </td>
             <td><!-- Aufgabe 8 -->
+                <h3>Quadratzahl ermitteln</h3>
                 <form name="quadrat">
-                    <p>Zahl:</p><input type="text" name="quadro" id="quadro"><br>
-                    <p>Quadratzahl?</p><input type="text" name="quadrot" id="quadrot"><br>
+                    <p>Zahl (Eingabe):</p><input type="text" name="quadro" id="quadro"><br>
+                    <p>Quadratzahl? (Ausgabe)</p><input type="text" name="quadrot" id="quadrot"><br>
                     <input type="button" value="ermitteln" onclick="quadratos()">
                     <input type="reset" value="löschen">
                 </form>
             </td>
             <td><!-- Aufgabe 9 -->
+                <h3>Buchstabe oder Zahl?</h3>
                 <form name="zeichen">
-                    <p>Buchstabe/Zahl:</p><input name="symbol" id="symbol"><br>
-                    <p id="ergebnis"></p><br>
-                    <input type="button" value="ermitteln" onclick="zeichen()">
+                    <p>Buchstabe/Zahl (Eingabe):</p><input type="text" name="symbol" id="symbol"><br>
+                    <p>Ausgabe:</p><input type="text" name="ergebnis" id="ergebnis"><br>
+                    <input type="button" value="ermitteln" onclick="zeichenen()">
                     <input type="reset" value="löschen">
                 </form>
             </td>
