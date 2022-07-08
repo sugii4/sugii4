@@ -116,3 +116,25 @@ function stellenwert() {
 
 // Teil 2
 //Aufgabe 1
+for(let x = 1; x <= 5; x++) {
+    for (let y = 0; y < 10; y++) {
+        document.getElementById('zahlenblock').innerHTML += x;
+    }
+    document.getElementById('zahlenblock').innerHTML += "<br>";
+}
+
+//Aufgabe 2
+for(let x = 0; x < 5; x++) {
+    for (let y = 0; y < 10; y++) {
+        document.getElementById('icks').innerHTML += "*";
+    }
+    document.getElementById('icks').innerHTML += "<br>";
+}
+
+//Aufgabe 3
+for(let x = 0; x < 5; x++) {
+    for(let y = 0; y < 10; y++) {
+        document.getElementById('pyramide').innerHTML += "+";
+    }
+    document.getElementById('pyramide').innerHTML += "<br>";
+}
