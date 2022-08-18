@@ -52,7 +52,8 @@ body {
 
 :checked + label {
     background-color: #bca89f;
-    border-color: #8b6c5c;
+    border-style: solid;
+    border-color: #4c3228;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     line-height: 1.5em;
 }
@@ -63,7 +64,7 @@ body {
     font-size: 1.5em;
     font-family: Papyrus;
     background-color: #bca89f;
-    border-color: #8b6c5c;
+    border-color: #4c3228;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     line-height: 1.5em;
 }
