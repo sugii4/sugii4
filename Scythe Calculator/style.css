@@ -40,10 +40,13 @@ body {
 .fraction { /*grid Kästchen*/
     display: inline-block;
     font-family: Papyrus;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
-    padding: 5%;
     margin: auto;
+}
+
+.bild {
+    width: 60%;
 }
 
 #actual-content input[type=checkbox] {
